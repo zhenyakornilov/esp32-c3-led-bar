@@ -20,6 +20,16 @@
             "attrs": {
                 "color": "green"
             }
+        },
+        {
+            "type": "wokwi-led-bar-graph",
+            "id": "ledBar",
+            "top": 200,
+            "left": 30,
+            "rotate": 90,
+            "attrs": {
+                "color": "BCYR"
+            }
         }
     ],
     "connections": [
