@@ -11,6 +11,15 @@
             "attrs": {
                 "flashSize": "16"
             }
+        },
+        {
+            "type": "wokwi-pushbutton",
+            "id": "btn",
+            "top": 45,
+            "left": -160,
+            "attrs": {
+                "color": "green"
+            }
         }
     ],
     "connections": [
@@ -25,6 +34,17 @@
             "$serialMonitor:TX",
             "",
             []
+        ],
+        [
+            "esp:3",
+            "btn:1.r",
+            "red"
+        ],
+        [
+            "btn:2.r",
+            "esp:GND.2",
+            "black",
+            ["h10", "v1"]
         ]
     ],
     "serialMonitor": {
