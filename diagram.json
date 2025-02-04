@@ -24,7 +24,7 @@
         {
             "type": "wokwi-led-bar-graph",
             "id": "ledBar",
-            "top": 200,
+            "top": 220,
             "left": 30,
             "rotate": 90,
             "attrs": {
@@ -53,8 +53,128 @@
         [
             "btn:2.r",
             "esp:GND.2",
-            "black",
+            "blue",
             ["h10", "v1"]
+        ],
+        [
+            "ledBar:A10",
+            "esp:1",
+            "red",
+            ["v-12", "*", "h-28"]
+        ],
+        [
+            "ledBar:A9",
+            "esp:10",
+            "red",
+            ["v-20", "*", "h-20"]
+        ],
+        [
+            "ledBar:A8",
+            "esp:19",
+            "red",
+            ["v-80", "*", "h8"]
+        ],
+        [
+            "ledBar:A7",
+            "esp:18",
+            "red",
+            ["v-72", "*", "h16"]
+        ],
+        [
+            "ledBar:A6",
+            "esp:4",
+            "red",
+            ["v-64", "*", "h24"]
+        ],
+        [
+            "ledBar:A5",
+            "esp:5",
+            "red",
+            ["v-56", "*", "h32"]
+        ],
+        [
+            "ledBar:A4",
+            "esp:6",
+            "red",
+            ["v-48", "*", "h40"]
+        ],
+        [
+            "ledBar:A3",
+            "esp:7",
+            "red",
+            ["v-40", "*", "h48"]
+        ],
+        [
+            "ledBar:A2",
+            "esp:8",
+            "red",
+            ["v-32", "*", "h56"]
+        ],
+        [
+            "ledBar:A1",
+            "esp:9",
+            "red",
+            ["v-24", "*", "h64"]
+        ],
+        [
+            "ledBar:C1",
+            "ledBar:C2",
+            "blue",
+            ["h0", "*", "v7"]
+        ],
+        [
+            "ledBar:C2",
+            "ledBar:C3",
+            "blue",
+            ["h0", "*", "v7"]
+        ],
+        [
+            "ledBar:C3",
+            "ledBar:C4",
+            "blue",
+            ["h0", "*", "v7"]
+        ],
+        [
+            "ledBar:C4",
+            "ledBar:C5",
+            "blue",
+            ["h0", "*", "v7"]
+        ],
+        [
+            "ledBar:C5",
+            "ledBar:C6",
+            "blue",
+            ["h0", "*", "v7"]
+        ],
+        [
+            "ledBar:C6",
+            "ledBar:C7",
+            "blue",
+            ["h0", "*", "v7"]
+        ],
+        [
+            "ledBar:C7",
+            "ledBar:C8",
+            "blue",
+            ["h0", "*", "v7"]
+        ],
+        [
+            "ledBar:C8",
+            "ledBar:C9",
+            "blue",
+            ["h0", "*", "v7"]
+        ],
+        [
+            "ledBar:C9",
+            "ledBar:C10",
+            "blue",
+            ["h0", "*", "v7"]
+        ],
+        [
+            "ledBar:C10",
+            "esp:GND.3",
+            "blue",
+            ["v10", "*", "h-36"]
         ]
     ],
     "serialMonitor": {
